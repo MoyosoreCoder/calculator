@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parentDiv {
+    width: 320px;
+    background-color: #222;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    border-radius: 10px;
+    box-shadow: 0 8px 20px(0,0,0,0.3);
+    padding: 10px;
+    /*add box shadow*/
+}
+
+.userInputDiv {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.userInput {
+    height: 80px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    text-align: right;
+    font-size: 35px;
+    background: #333;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+
+
+
+.calculatorDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.calculatorDiv button {
+    height: 65px;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #4444;
+    transition: transform 0.1s;
+}
+
+.calculatorDiv button:hover {
+    opacity: 0.8;
+}
+
+.calculatorDiv button:active {
+    transform: scale(0.90)
+}
+
+.calculatorDiv .upSignButton {
+    background: #aaa;
+}
+
+.calculatorDiv .signs {
+
+    background: #ff9500;
+
+}
+ #numberZero {
+    grid-column: span 2;
+
+ }
+ #equals {
+    background: #ff9500
+
+ }
