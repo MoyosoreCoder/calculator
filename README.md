@@ -7,7 +7,7 @@ This is a simple calculator for performing basic arithmetic operations
 - Multiplication
 - Division
 - Percentage
-- Addition of  minus sign to integers if button is clicked
+- Posituve, negative symbol button(if clicked, - appear)
 - Clear button
 - Responsive frontend design
 - interactive button effects
