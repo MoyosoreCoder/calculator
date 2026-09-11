@@ -26,7 +26,7 @@ This is a simple calculator for performing basic arithmetic operations
 - Use AC button to clear inputs
 
 Project Structure
-- calculator/
+calculator/
 - index.html
 - style.css
 - calculator.js
@@ -40,7 +40,7 @@ Project Structure
 This project is part of my port folio on Javascript and demonstrates my potential in building functional web applications using HTML, CSS and Javascript.
 
 ## Author
-- Mariam Moyosore Kelani
+Mariam Moyosore Kelani
 
 
 
